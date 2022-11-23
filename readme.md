@@ -1,9 +1,17 @@
-## Crud con spring
+# Crud con spring usando MVC | Thymeleaf | MySQL
 
+ - [Crear Proyecto](#spring-initializr)
+     - [Agregar Dependencias](#dependencias)
+ - [Estructura del proyecto](#creamo-la-estructura-del-protecto)
+  
+
+**CRUD**
 - Create
 - Read
 - Update
 - Delete
+
+
 
 ## Crear proyeccto
 
@@ -11,18 +19,19 @@
 
 :point_right:  [Initializr](https://start.spring.io/ "Spring Initializr")
 
-Dependencias: 
+Type: Maven
+
+Name: CrudSpringSencillo
+
+### Dependencias:
 
 - Spring Data JPA
 - Spring Web
 - MySQL Driver
 - Thymeleaf
 
-Type: Maven
-
-Name: CrudSpringSencillo
-
 ![Capture_initializr](images/capture_initializr.PNG "capture_initializr")
+
 
 Luego damos click en: Generate
 
@@ -37,6 +46,7 @@ Ahora vamos a abrir el proyecto desde un editor de codigo.
 ![Capture_descomprimir](images/capture_descomprimir.PNG "capture_descomprimir")
 
 - abrimos el archivo
+
 ![Capture_abrir](images/capture_abrir.png "capture_abrir")
 
 - Seleccionamos el proyecto y ya lo tendriamos en nuestro IDE

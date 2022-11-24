@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping()
-public class controlador {
+public class PersonaController {
 
 
 
@@ -38,11 +38,13 @@ public class controlador {
         return "form";
     }
 
+
     @PostMapping("/save")
     public String save(@Valid Persona p, Model model){
         service.save(p);
         return "redirect:/listar";
     }
+
 
     @GetMapping("/editar/{id}")
     public String editar(@PathVariable int id,  Model model){

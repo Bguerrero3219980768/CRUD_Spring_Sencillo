@@ -1,4 +1,4 @@
-# Crud con spring usando MVC | Thymeleaf | MySQL
+# Crud con spring usando MVC | Thymeleaf | MySQL | REST API
 
  - [Crear Proyecto](#spring-initializr)
      - [Agregar Dependencias](#dependencias)
